@@ -1,27 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
-    transition: background-color 0.3s ease;
-}
-
-.container {
-    max-width: 50%;
-    width: 100%;
-    margin: 30px auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    background-color: #fff;
-    transition: background-color 0.3s ease;
+    background-color: #94bde8;
 }
 
 h1, h2 {
     text-align: center;
-    font-size: 28px;
-    transition: color 0.3s ease;
+    font-size: 30px;
 }
 
 p {
@@ -75,24 +59,3 @@ button {
     color: #333;
 }
 
-.modo-oscuro-activado {
-    background-color: #333;
-    color: #f2f2f2;
-}
-
-.modo-oscuro-activado .container {
-    background-color: #444;
-}
-
-.modo-oscuro-activado h1, .modo-oscuro-activado h2 {
-    color: #f2f2f2;
-}
-
-.modo-oscuro-activado select, .modo-oscuro-activado input {
-    background-color: #333;
-    color: #f2f2f2;
-}
-
-.modo-oscuro-activado button {
-    background-color: #222;
-}

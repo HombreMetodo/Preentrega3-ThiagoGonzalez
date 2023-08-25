@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Array de monedas con sus tasas de cambio
     const monedasJSON = [
       {
-        nombre: "Dólar Americano",
+        nombre: "Dólar USD",
         abreviatura: "USD",
         tasaCambio: 1.0,
       },
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
       {
         nombre: "Peso Argentino",
         abreviatura: "ARS",
-        tasaCambio: 720.0,
+        tasaCambio: 730.0,
       },
       {
         nombre: "Peso Chileno",
@@ -36,7 +36,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // Elementos del DOM
     const btnConvertir = document.getElementById("btnConvertir");
     const resultadoDiv = document.getElementById("resultado");
-    const modoOscuroBtn = document.getElementById("modoOscuroBtn");
   
     // Función para convertir monedas
     btnConvertir.addEventListener("click", () => {
@@ -57,10 +56,5 @@ document.addEventListener("DOMContentLoaded", () => {
       } else {
         resultadoDiv.textContent = "Ingrese un valor válido.";
       }
-    });
-  
-    // Cambio de modo oscuro
-    modoOscuroBtn.addEventListener("click", () => {
-      document.body.classList.toggle("modo-oscuro-activado");
     });
   });
